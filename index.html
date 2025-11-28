@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Developer Portfolio</title>
+    <style>
+        /* CSS Kısmı (Tasarım) */
+        body {
+            background-color: #1e1e2e; /* Koyu Arka Plan */
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background-color: #2b2b3b; /* Kart Rengi */
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5); /* Gölge */
+            width: 300px;
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%; /* Yuvarlak resim */
+            border: 4px solid #ff9f43; /* Turuncu Çerçeve */
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+
+        h2 {
+            font-size: 16px;
+            color: #ff9f43; /* Turuncu Alt Başlık */
+            margin-bottom: 20px;
+            font-weight: normal;
+        }
+
+        p {
+            font-size: 14px;
+            color: #a5a5b5;
+            line-height: 1.6;
+        }
+
+        .skills {
+            margin-top: 25px;
+        }
+
+        .tag {
+            background-color: #3f3f50;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 12px;
+            margin: 3px;
+            display: inline-block;
+        }
+
+        .btn {
+            display: block;
+            margin-top: 30px;
+            background-color: #ff9f43;
+            color: #1e1e2e;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #fff; /* Üzerine gelince beyaz olsun */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <img src="https://avatar.iran.liara.run/public/boy" alt="Profile Picture" class="profile-img">
+
+        <h1>Muhammet Taha BAykara</h1>
+        <h2>Full Stack Developer</h2>
+
+        <p>
+            Hello! I am learning web development. 
+            I want to be a Full Stack Developer. 
+            I enjoy coding with Python.
+        </p>
+
+        <div class="skills">
+            <span class="tag">Python</span>
+            <span class="tag">Django</span>
+            <span class="tag">HTML/CSS</span>
+            <span class="tag">Git</span>
+        </div>
+
+        <a href="https://github.com/" target="_blank" class="btn">https://github.com/baykaratahaa</a>
+    </div>
+
+</body>
+</html>
